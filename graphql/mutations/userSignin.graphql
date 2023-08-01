@@ -1,0 +1,6 @@
+mutation UserSignIn($email: String!, $password: String!) {
+  userSignIn(email: $email, password: $password) {
+    id
+    email
+  }
+}

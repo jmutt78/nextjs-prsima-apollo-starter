@@ -1,0 +1,6 @@
+mutation SignInWithGoogle($token: String!) {
+  signInWithGoogle(token: $token) {
+    id
+    email
+  }
+}
